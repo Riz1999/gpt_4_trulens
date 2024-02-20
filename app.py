@@ -7,6 +7,9 @@ from chromadb.utils.embedding_functions import OpenAIEmbeddingFunction
 from trulens_eval import Tru, TruCustomApp, Feedback, Select
 from trulens_eval.feedback import Groundedness
 from trulens_eval.feedback.provider.openai import OpenAI as fOpenAI
+from llama_index import VectorStoreIndex, SimpleDirectoryReader, ServiceContext
+from llama_index.llms import HuggingFaceLLM
+from llama_index.prompts.prompts import SimpleInputPrompt
 import numpy as np
 
 
