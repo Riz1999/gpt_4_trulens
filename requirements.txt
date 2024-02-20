@@ -2,3 +2,4 @@ streamlit
 openai
 chromadb
 trulens_eval
+pysqlite3-binary
