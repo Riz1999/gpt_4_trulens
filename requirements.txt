@@ -1,5 +1,5 @@
 streamlit
 openai
-chromadb
+chromadb==0.3.29
 trulens_eval
 pysqlite3-binary
