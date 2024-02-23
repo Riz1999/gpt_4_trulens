@@ -3,4 +3,4 @@ openai
 chromadb
 trulens_eval
 llama_index
-SQLite 
+db-sqlite3
