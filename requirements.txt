@@ -1,6 +1,6 @@
 streamlit
 openai
-chromadb
+chromadb==0.3.29
 trulens_eval
 llama_index
 db-sqlite3
