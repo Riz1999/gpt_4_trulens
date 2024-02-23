@@ -2,5 +2,5 @@ streamlit
 openai
 chromadb>=0.4.22
 trulens_eval
-pysqlite3-binary
+
 llama_index
