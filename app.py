@@ -10,6 +10,10 @@ from trulens_eval.feedback.provider.openai import OpenAI as fOpenAI
 import numpy as np
 
 
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 # Define instrument decorator
 def instrument(func):
     def wrapper(*args, **kwargs):
