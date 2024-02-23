@@ -69,7 +69,7 @@ Answer: {random_entry['Answer'].values[0]}
 """
 
 # Set your OpenAI API key
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 
 # Initialize OpenAI client
 oai_client = OpenAI()
