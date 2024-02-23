@@ -1,6 +1,6 @@
 streamlit
 openai
-chromadb
+chromadb llama-index-cli
 trulens_eval
 pysqlite3-binary
 llama_index
